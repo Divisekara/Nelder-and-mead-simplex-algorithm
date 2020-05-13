@@ -7,7 +7,7 @@ function [next_points] = reflecting(a,X_0)
     f = @(x1,x2) 4*x1^2 + 2*x2^2 -x1*x2 - 40*x1 -10*x2;
     
     [rows, columns] = size(X_0);     %equally space points
-    n= rows;
+    n= rows
 
     for l=1:n
         x_1 = simplex_points(1,l);
