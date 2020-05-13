@@ -4,6 +4,7 @@ f = @(x) 0.6382*x(1)^2 + 0.3191*x(2)^2 - 0.2809*x(1)*x(2) - 67.906*x(1) - 14.290
 %Nelder and mead algorithm works 100 percent correctly. this works also for
 %one variable and multivariable also.
 
+
 %definitions
 n=2;
 x0=[0 0];
